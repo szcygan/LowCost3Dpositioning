@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "LowCost3Dpositioning: low-cost stereo vision triangulation system for ultrasonic probe positioning"
+type: software
+license: CC-BY-4.0
+repository-code: "https://github.com/szcygan/LowCost3Dpositioning"
+authors:
+  - family-names: Cygan
+    given-names: Szymon
+    affiliation: "Warsaw University of Technology, Institute of Metrology and Biomedical Engineering"
+  - family-names: Urban
+    given-names: Mateusz
+    affiliation: "Warsaw University of Technology, Institute of Metrology and Biomedical Engineering"
+  - family-names: Czyżyk
+    given-names: Anna
+    affiliation: "Warsaw University of Technology, Institute of Metrology and Biomedical Engineering"
+  - family-names: Żmigrodzki
+    given-names: Jakub
+    affiliation: "Warsaw University of Technology, Institute of Metrology and Biomedical Engineering"
+preferred-citation:
+  type: article
+  title: "Low-cost 3D vision-based triangulation system for ultrasonic probe positioning"
+  authors:
+    - family-names: Cygan
+      given-names: Szymon
+    - family-names: Urban
+      given-names: Mateusz
+    - family-names: Czyżyk
+      given-names: Anna
+    - family-names: Żmigrodzki
+      given-names: Jakub
+  journal: "Polish Journal of Medical Physics and Engineering"
+  volume: 30
+  issue: 4
+  start: 249
+  end: 257
+  year: 2024
+  doi: "10.2478/pjmpe-2024-0029"

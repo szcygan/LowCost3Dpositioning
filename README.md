@@ -209,6 +209,36 @@ one-pixel shift. Grayscale conversion uses the MATLAB `rgb2gray` weights.
   sphere's centre under perspective. The bias is sub-pixel for the marker
   sizes used here.
 
+## License and citation
+
+Everything in this repository (code, data, drawings) is released under the
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+license (CC BY 4.0, see [LICENSE](LICENSE)). You may use, modify and
+redistribute it for any purpose, including commercially.
+
+**Required attribution:** under Section 3(a) of the license, the licensors
+request that attribution be given by citing the article:
+
+> S. Cygan, M. Urban, A. Czyżyk, J. Żmigrodzki, *Low-cost 3D vision-based
+> triangulation system for ultrasonic probe positioning*,
+> Pol J Med Phys Eng 2024;30(4):249–257, doi:10.2478/pjmpe-2024-0029.
+
+```bibtex
+@article{Cygan2024LowCost3D,
+  author  = {Cygan, Szymon and Urban, Mateusz and Czy{\.z}yk, Anna and {\.Z}migrodzki, Jakub},
+  title   = {Low-cost {3D} vision-based triangulation system for ultrasonic probe positioning},
+  journal = {Polish Journal of Medical Physics and Engineering},
+  year    = {2024},
+  volume  = {30},
+  number  = {4},
+  pages   = {249--257},
+  doi     = {10.2478/pjmpe-2024-0029}
+}
+```
+
+The citation metadata is also in [CITATION.cff](CITATION.cff), so GitHub's
+"Cite this repository" button gives the same reference.
+
 ## Repository layout
 
 ```
