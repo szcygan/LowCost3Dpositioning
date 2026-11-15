@@ -1,0 +1,8 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+*.json
+!data/*.json
+*.png
+!data/*.png
+!docs/*.png

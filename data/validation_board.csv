@@ -1,0 +1,9 @@
+# Validation board marker centres (mm) in the board plane, order: TL, TR, centre, BL, BR
+# 145 mm between left and right columns, 90 mm between rows,
+# centre marker 67.5 mm from the left column and 45 mm above the bottom row.
+X,Y,Z
+0,90,0
+145,90,0
+67.5,45,0
+0,0,0
+145,0,0

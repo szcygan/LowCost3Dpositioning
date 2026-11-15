@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lowcost3d"
+version = "1.0.0"
+description = "Low-cost stereo vision triangulation system for ultrasonic probe positioning"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Szymon Cygan" },
+  { name = "Mateusz Urban" },
+  { name = "Anna Czyżyk" },
+  { name = "Jakub Żmigrodzki" },
+]
+dependencies = [
+  "numpy>=1.22",
+  "scipy>=1.8",
+  "matplotlib>=3.5",
+  "pillow>=9",
+  "pandas>=1.4",
+  "openpyxl>=3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+lowcost3d = "lowcost3d.cli:main"
+
+[tool.setuptools]
+packages = ["lowcost3d"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
